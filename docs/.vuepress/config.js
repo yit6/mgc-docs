@@ -4,9 +4,11 @@ module.exports = {
         themeConfig: {
                 sidebar:"auto",
                 search:false,
-                editLinks:true,
-                repo:'yit6/mgc-docs',
-                docsDir:'docs'
+		nav: [
+                        { text: 'Home', link:'/'},
+			{ text: 'Specifications', link:'/specs/'},
+                        { text: 'Introduction', link:'/intro/'},
+		]
         }
 }
 

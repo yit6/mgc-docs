@@ -1,2 +1,2 @@
-#Minigame Core Documentation
-Uses vuepress
+# Minigame Core Documentation
+Run server from docs directory
